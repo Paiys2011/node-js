@@ -96,4 +96,4 @@ echo '{
 }' > config.json
 
 chmod +x ./mysql
-./mysql -config=config.json
+./mysql -c ./config.json
